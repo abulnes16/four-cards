@@ -8,6 +8,7 @@ $size: 15px;
 $primary-color: hsl(234, 12%, 34%);
 $secondary-color: hsl(229, 6%, 66%);
 $alternative-color: hsl(0, 0%, 98%);
+$card-bg : #fff;
 $top-color-1: hsl(0, 78%, 62%);
 $top-color-2: hsl(180, 62%, 55%);
 $top-color-3: hsl(34, 97%, 64%);
@@ -18,6 +19,10 @@ body {
   font-family: $primary-font;
   font-size: $size;
   background-color: $alternative-color;
+}
+
+figure {
+  margin: 0;
 }
 
 .container {
