@@ -4,7 +4,19 @@
   gap: 25px;
   margin-top: 80px;
   padding: 0 10px;
-} 
+
+  @media screen and (min-width: 768px){
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    margin-top: 50px;
+  }
+}
+
+.center-cards {
+  display: grid;
+  gap: 25px;
+  
+}
 
 .card {
   padding: 10px 25px 20px;
@@ -42,6 +54,12 @@
     img {
       width: 60px;
       height: 60px;
+    }
+  }
+
+  @media screen and (min-width: 1024px){
+    &__title {
+      font-size: 20px;
     }
   }
 

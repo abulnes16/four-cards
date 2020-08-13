@@ -1,0 +1,7 @@
+ @mixin top-card-color($color){
+   border-top-style: solid;
+   border-top-width: 4px;
+   border-top-left-radius: 5px;
+   border-top-right-radius: 5px;
+   border-color: $color;
+}
